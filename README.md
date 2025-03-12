@@ -19,3 +19,7 @@ char* streval(char* in)
 If you want to work with variables, do not use "echo" but "printf", otherwise it will add a new line.<br/>
 If anything goes wrong, the function will return NULL, so check for that.<br/>
 STDERR is not caught, so if you need it, please use ".... 2>&1"
+
+## Why am i doing this?
+With MAC randomisation, nowadays Ch struggles to understand if your license is still valid. So i want an alternative.<br/>
+(Also, Ch is super closed source).
