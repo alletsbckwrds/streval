@@ -15,4 +15,6 @@ This function returns a char* and takes a char* as input:<br/>
 char* streval(char* in)
 
 ## Suggestions
-If you want to work with variables, do not use "echo" but "printf", otherwise it will add a new line.
+If you want to work with variables, do not use "echo" but "printf", otherwise it will add a new line.<br/>
+If anything goes wrong, the function will return NULL, so check for that.<br/>
+STDERR is not caught, so if you need it, please use ".... 2>&1"
