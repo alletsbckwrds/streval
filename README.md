@@ -13,3 +13,6 @@ In this example i also used std::string because it's quicker, but the function a
 ## Return
 This function returns a char* and takes a char* as input:<br/>
 char* streval(char* in)
+
+## Suggestions
+If you want to work with variables, do not use "echo" but "printf", otherwise it will add a new line.
