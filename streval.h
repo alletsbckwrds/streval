@@ -18,7 +18,7 @@ char* streval(char* in) {
 		totalCharsRead += charsRead;
 		if (totalCharsRead >= bufferSize -1){
 			bufferSize *= 2; //doubles the buffer if there is not enough space
-			char *temp = (char*) realloc(buffer, bufferSize); //does this work? its never been allocated before...
+			char *temp = (char*) realloc(buffer, bufferSize); //new pointer for buffer
 			if(temp == NULL){
 				free(buffer); pclose(file); return (char*) NULL;
 			}
